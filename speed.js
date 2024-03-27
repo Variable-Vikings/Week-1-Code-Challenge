@@ -1,6 +1,9 @@
 //Create a function called speedDetector
 function speedDetector(speed){
     //Create a condition that checks speed limit
+    if (speed<=70){
+        return "Ok"
+    }
     if (speed > 70){
         let demeritPoints = (speed-70)/5;
         if(demeritPoints < 12){
